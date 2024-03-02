@@ -11,16 +11,15 @@
   background-color: #ffd9df;
   display: inline-block;
 }
+
 #middle {
   width: 800px;
   height: 800px;
-  margin: 20px 0;
+  margin: 20px 0 20px 0;
   background-color: #ffd9df;
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
 }
+
 #middle-child01 {
   width: 200px;
   height: 200px;
