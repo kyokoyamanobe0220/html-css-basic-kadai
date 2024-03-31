@@ -7,6 +7,13 @@ p {
   font-size: 15px;
 }
 
+.arrow-right {
+  color: #2710d5;
+}
+#submit {
+  margin-top: 50px;
+}
+
 /* PC用のスタイル*/
 @media screen and (min-width: 768px) {
   /*横幅設定*/
@@ -198,7 +205,7 @@ h3 {
 #product-more {
   margin: 0 auto -42px auto;
 }
-
+/*ABOUT　US*/
 #abouts {
   margin: 80px auto 80px aut;
 }
@@ -376,9 +383,9 @@ h3 {
 }
 /* テキストボックス */
 .contact-textbox {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   border-bottom-width: 1px;
   border-bottom-color: #707070;
   border-bottom-style: solid;
@@ -388,9 +395,9 @@ h3 {
 }
 /* お問い合わせ内容のテキストエリア */
 .contact-textarea {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   border-bottom-width: 1px;
   border-bottom-color: #707070;
   border-bottom-style: solid;
@@ -543,6 +550,7 @@ footer {
 .fivegoals-number {
   color: #2710d5;
   font-size: 48px;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -554,6 +562,7 @@ footer {
 .fivegoals-p {
   margin: 0;
 }
+
 /*プロダクトページ*/
 #product-main {
   height: 496px;
@@ -593,7 +602,7 @@ footer {
   font-size: 16px;
 }
 
-/*セクション*/
+/*セクション1*/
 .product-section1 {
   position: relative;
   margin: 20px;
@@ -658,10 +667,12 @@ footer {
     min-width: 375px;
     margin: 0;
   }
+
   /*PC用ナビゲーション非表示設定*/
   #nav-pc {
     display: none;
   }
+
   /* ハンバーガーメニュー */
   #menu-sp {
     float: right;
@@ -680,6 +691,7 @@ footer {
     display: none;
     z-index: 100;
   }
+
   /* ×ボタン */
   #close {
     position: absolute;
@@ -734,14 +746,12 @@ footer {
   }
 
   /*メインビジュアル*/
-
-  #main-visual {
+#main-visual {
     position: relative;
     height: 470px;
     width: 100%;
     overflow: hidden;
   }
-
   #main-visual > div {
     position: absolute;
     top: 0;
@@ -1049,10 +1059,10 @@ width: 100%;
   margin-bottom: 20px;
 }
 
-.radiobutton + label::after {
+/*.radiobutton + label::after {
   content: "\A";
   white-space: pre;
-}
+}*/
 
 /*フッター*/
 footer {
@@ -1080,12 +1090,13 @@ footer {
 #footer-link > a:link {
   color: #ffffff;
 }
-
+#footer-link > a:visited {
+color: #ffffff;
+}
 #footer-link > a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-
 #footer-link > a:active {
   color: #ffffff;
 }
@@ -1149,6 +1160,7 @@ footer {
   .mission-h2 {
     color: #2710d5;
     font-size: 38px;
+    margin: 0px;
   }
 
   .mission-h2::after {
