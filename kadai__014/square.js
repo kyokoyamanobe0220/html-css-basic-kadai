@@ -1,7 +1,7 @@
+ //与えられた引数を2乗し、その値を戻り値として返す関数を定義する
 const double = (num) => {
-  //与えられた引数を2乗する
-  console.log(num * 2);
+  return num * 2;
 }
 
-double(50);
-double(100);
+//関数の戻り値を出力する
+console.log(double(10));
